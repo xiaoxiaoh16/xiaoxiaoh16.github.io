@@ -11,8 +11,6 @@ type: page
 
 ## 关于我
 
-<iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
-
 计算机小硕一枚，曾就职于上海某上市通信公司三年有余。
 
 暂时居住于纽约，从事数据分析相关的工作.
@@ -28,7 +26,7 @@ type: page
 
 ## 关于本站
 
-在这里，记录自己成长，沉淀岁月留下的痕迹。i
+在这里，记录自己成长，沉淀岁月留下的痕迹!
 
 ## Comments
 
