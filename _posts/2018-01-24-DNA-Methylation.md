@@ -4,6 +4,7 @@ title: "DNA Methylation"
 categories: 生物信息
 tags:  笔记 
 keywords: DNA Methylation
+author: xiaoxiao
 description: 
 ---
 
@@ -23,7 +24,8 @@ description:
 
 - DNA甲基化的主要有3种形式：5-mC （ 5－甲基胞嘧啶）和少量的N6-mA （ N6-甲基嘌呤）及7-mG （ 7－甲基鸟嘌呤）
 
-![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/tree/master/_drafts/57881_dnam.png)
+
+![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/dna_mf.png)
 
 1.2 几个基本概念（CpG sites, CpG island, CpG island shore, CpG island shelves）
 
@@ -40,7 +42,7 @@ CpG island shore
 CpG island shelves
 - CpG island shelves是在2011年由Marina Bibikova等人提出的，将CpG island shores上下游2kb定义为CpG island shelves(即CpG岛上下游2kb-4kb)
 
-![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/tree/master/_drafts/cpg_island.png)
+![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/cpg_island.png)
 
 1.3 不同物种的甲基化情况
 
