@@ -11,6 +11,8 @@ description:
 * content
 {:toc}
 
+看到知乎上形容DNA甲基化为给DNA戴上帽子，感觉好形象。
+DNA甲基化在调控基因表达、维持染色质结构、基因印记、X染色体失活以及胚胎发育等生物学过程中发挥着重大的作用。
 
 # 1. What is DNA Methylation
 
