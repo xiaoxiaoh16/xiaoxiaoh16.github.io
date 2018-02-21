@@ -61,7 +61,7 @@ description:
 # 4. 举个栗子
 ![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/venn-diagram-tiff.png) 
 
-![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/C1513_1.venn.tiff) 
+![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/C1513_1.venn.tiff.png) 
 
 # 备注
 
