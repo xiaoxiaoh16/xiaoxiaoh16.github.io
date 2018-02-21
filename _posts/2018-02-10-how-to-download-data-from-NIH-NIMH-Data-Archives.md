@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to download data from NIH NIMH Data Archives"
+title: "How to download data from NIH NDA"
 categories: Linux基础
 tags:  总结笔记 
 keywords: NDAR Download Manager5.1 orcle SQL Developer, AWS 
