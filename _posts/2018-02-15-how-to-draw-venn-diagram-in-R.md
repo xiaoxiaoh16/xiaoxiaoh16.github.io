@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "How to draw venn diagram in R"
-categories: 编程之魅:[R]
-tags:  总结笔记 
+categories: 编程之魅
+tags:  R, 总结笔记 
 keywords: venn diagram
 author: xiaoxiao
 description: 
