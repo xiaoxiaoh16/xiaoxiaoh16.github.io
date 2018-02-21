@@ -71,13 +71,13 @@ I am going to download  paper data, which is deposited to the NIH NIMH Data Arch
 # 4. Large dataset
 
 - I have a 14.3T dataset(195 files totally) to download, so I am going to use script to run it.
-[xhao@EG02 2018-clone-diff]$ head -6 sql.txt 
-s3://NDAR_Central_4/submission_13827/capture/275-PA-clone3.bam
-s3://NDAR_Central_4/submission_13827/capture/320-FR-CX.bam
-s3://NDAR_Central_4/submission_13827/data/320-BG-clone4.bam
-s3://NDAR_Central_4/submission_13827/data/320-BG-clone8.bam
-s3://NDAR_Central_4/submission_13827/data/320-BG-clone15.bam
-s3://NDAR_Central_4/submission_13827/data/275-FR-clone11-hx.bam
+> [xhao@EG02 2018-clone-diff]$ head -6 sql.txt 
+> s3://NDAR_Central_4/submission_13827/capture/275-PA-clone3.bam
+> s3://NDAR_Central_4/submission_13827/capture/320-FR-CX.bam
+> s3://NDAR_Central_4/submission_13827/data/320-BG-clone4.bam
+> s3://NDAR_Central_4/submission_13827/data/320-BG-clone8.bam
+> s3://NDAR_Central_4/submission_13827/data/320-BG-clone15.bam
+> s3://NDAR_Central_4/submission_13827/data/275-FR-clone11-hx.bam
 
 > [xhao@EG02 2018-clone-diff]$ cat aws.download.sh 
 > #!/bin/bash
