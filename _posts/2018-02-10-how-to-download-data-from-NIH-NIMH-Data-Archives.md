@@ -78,22 +78,10 @@ I am going to download  paper data, which is deposited to the NIH NIMH Data Arch
 > - s3://NDAR_Central_4/submission_13827/data/320-BG-clone8.bam
 > - s3://NDAR_Central_4/submission_13827/data/320-BG-clone15.bam
 > - s3://NDAR_Central_4/submission_13827/data/275-FR-clone11-hx.bam
-> - [xhao@EG02 2018-clone-diff]$ cat aws.download.sh 
-> - #!/bin/bash
-> - MAX=195
-> - for ((i=1;i<=$MAX;i++))
-> - do
-> -	 x=$(sed -n "$i p" sql.txt)
-> -  aws s3 cp $x . --region us-east-1
-> - done
-> - run script: ./aws.download.sh
+
+![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/NDA_AWS_download.sh.png) 
 
 # 5. 文件校验
 因为下载的文件很多，还在下载中，无外乎用md5等算法进行所谓的校验
 
 # 备注
-
-
-
-
-
