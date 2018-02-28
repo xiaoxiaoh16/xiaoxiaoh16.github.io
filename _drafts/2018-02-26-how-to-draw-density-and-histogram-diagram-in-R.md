@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to draw venn diagram in R"
+title: "How to draw density and histogram in R"
 categories: 编程之魅
 tags:  R 总结笔记 
 keywords: venn diagram
@@ -11,13 +11,21 @@ description:
 * content
 {:toc}
 
-今天要统计用4种方法得到结果的交集情况，朋友介绍用R包画韦恩图(venn diagram)，简单快捷，还省心，棒棒哒.
+今天需要画density 和histogram图形进行相关比较。
 
-# 1. how to install venn package
+# 1. 相关统计知识
 
-- install.packages("VennDiagram") //本地安装，需要软件包的完整目录
+- 核密度估计（kernel density estimation）是在概率论中用来估计未知的密度函数，属於非参数检验方法之一
+
+
+
+density 和histogram 函数介绍
+
+-  
+
+install.packages("VennDiagram") //本地安装，需要软件包的完整目录
 - install.packages("VennDiagram", repos="http://R-Forge.R-project.org") //指定软件包所在的网址进行安装
-- library(VennDiagram) //加载软件包
+- library(VennDiagram) //加载
 
 # 2. 设置工作目录
 
@@ -59,27 +67,7 @@ description:
 - ......
 
 # 4. 举个栗子
-```
-install.packages("VennDiagram", repos="http://R-Forge.R-project.org")
-library(VennDiagram)
-setwd('/Users/Xiaoxiaoh/Documents/2018-bioinformatics/R')
-sample=c('C1513_1','C1513_2','C1513_3','C1513_4')
-for(i in 1:length(sample)){
-  gatk_sc<-unlist(read.table(paste(sample[i],".sc.txt", sep=''), header=T, sep='\t'))
-  sen_sc<-unlist(read.table(paste(sample[i],".sentieon.sc.txt", sep=''), header=T, sep='\t'))
-  sentieon<-unlist(read.table(paste(sample[i],".sentieon.txt", sep=''), header=T, sep='\t'))
-  gatk<-unlist(read.table(paste(sample[i],".gatk.txt", sep=''), header=T, sep='\t'))
-  venn.plot<-venn.diagram(list(gatk_sc=gatk_scc,sen_sc=sen_sc,sentieon=sentieon,
-			gatk=gatk), col = "transparent", fill = c("red", "green", "yellow", 
-			"blue"), height=500, width=500, alpha =c(0.5,0.5,0.5,0.5), scaled = TRUE, 
-		    ext.text = TRUE, ext.line.lwd = 0.2, ext.dist = -0.2, ext.length = 0.2, 
-			ext.pos = -0.2, inverted = TRUE, cex = 0.2, cat.cex = 0.2, 
-			cat.fontface="bold", filename = paste(sample[i], ".venn.png"), 
-			main = sample[i], sub = "gatk_sc-sentieon-gatk-sen_sc", 
-			fontface = "bold", main.fontface="bold", sub.fontface="bold",
-			main.cex = 0.2,sub.cex = 0.2)
-}
-``` 
+![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/venn-diagram-tiff.png) 
 
 ![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/C1513_1.venn.tiff.png) 
 

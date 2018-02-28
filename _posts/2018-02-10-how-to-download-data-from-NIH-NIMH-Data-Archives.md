@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to download data from NIH NDA"
+title: "How to download data from NIHNDA"
 categories: Linux基础
 tags:  总结笔记 
 keywords: NDAR Download Manager5.1 orcle SQL Developer, AWS 
@@ -30,7 +30,7 @@ I am going to download  paper data, which is deposited to the NIH NIMH Data Arch
 - step1. loggin in to NDA.
 - step2: form "data from paper" find the paper.
 - step3. clink the download button on the left of the paper.
-- step4. I get the filter data information
+- step4. get the filter data information
 - step5: create a package
 
 ## 3.2  launch the download manager
@@ -47,7 +47,7 @@ I am going to download  paper data, which is deposited to the NIH NIMH Data Arch
 > ./sqldeveloper.sh
 - step3: new connection
 ![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/Oracle_SQL_Developer_conntection.png) 
-- step4: S3_LINKS -> Export -> get the exprot.sql file
+- step4: S3_LINKS -> Export -> get the export.sql file
 
 ## 3.4 Generate AWS Credentials
 - step1: open NDAR Download Manager 5.1 
@@ -78,7 +78,6 @@ I am going to download  paper data, which is deposited to the NIH NIMH Data Arch
 > - s3://NDAR_Central_4/submission_13827/data/320-BG-clone8.bam
 > - s3://NDAR_Central_4/submission_13827/data/320-BG-clone15.bam
 > - s3://NDAR_Central_4/submission_13827/data/275-FR-clone11-hx.bam
-
 ![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/NDA_AWS_download.sh.png) 
 
 # 5. 文件校验
