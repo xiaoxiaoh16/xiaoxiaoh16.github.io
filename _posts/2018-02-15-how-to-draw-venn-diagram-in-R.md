@@ -81,7 +81,7 @@ for(i in 1:length(sample)){
 }
 ``` 
 
-![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/C1513_1.venn.tiff.png) 
+![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/C151223_4.venn.png) 
 
 # 备注
 - intersect（A, B) //查看结合A和B的overlap
