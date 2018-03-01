@@ -84,8 +84,6 @@ for(i in 1:length(sample)){
 
 ![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/C1513_1.venn.tiff.png) 
 
-![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/C1513_4.venn.tiff)
-
 # 备注
 - intersect（A, B) //查看结合A和B的overlap
 - setdiff(A,B) //查看集合B在集合A中的补集，即A-B的部分。
