@@ -17,10 +17,13 @@ description:
 
 - 核密度估计（kernel density estimation）是在概率论中用来估计未知的密度函数，属於非参数检验方法之一
 - 假设我们有n个数$$x_{1}-x_{i}$$，要计算某一个数x的概率密度，核密度估计的方法如下：
+
 <script type="text/javascript"
 	src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
+
 > $$f(x) = \frac{1}{nh}\sum_{i=1}^nK(\frac{x-x_{i}}{h})$$
+
 - 其中K为核密度函数
 - h为设定的窗口
 - 原理：如果某一个数在观察中出现了，可以认为这个数的概率密度很大，和这个数比较近的数的概率密度也会比较大，而那些离这个数远的概率密度会比较小。
@@ -70,8 +73,8 @@ density(x, bw = "nrd0", adjust = 1,
 - 7) optcosine
 
 # 5. 如何在一页多图？
-> par(mfrow=c(m,n))
-把一个页面平分成m*n份做m*n个图，用par函数的mfrow和mfcol参数。这两个参数都是两个值的向量，表示行数和列数，但在页面上作图顺序的顺序不一样。
+- par(mfrow=c(m,n))
+- 把一个页面平分成m*n份做m*n个图，用par函数的mfrow和mfcol参数。这两个参数都是两个值的向量，表示行数和列数，但在页面上作图顺序的顺序不一样。
 
 # 6. 如何把多组数据画到同一个图
 - 可以对不同数据集进行比较
