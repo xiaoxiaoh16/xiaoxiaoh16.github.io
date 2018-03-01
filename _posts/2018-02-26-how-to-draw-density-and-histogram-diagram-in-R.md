@@ -98,7 +98,6 @@ density(x, bw = "nrd0", adjust = 1,
 ### 6.4.2 lines()
 - lines()
 - 用来做一般连线图，其输入是x,y的点向量
-
 ### 6.4.3 text()
 - text()
 - 用于向绘图区添加标注
