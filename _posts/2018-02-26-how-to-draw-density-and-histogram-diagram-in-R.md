@@ -16,6 +16,10 @@ description:
 # 1. 相关统计知识
 
 - 核密度估计（kernel density estimation）是在概率论中用来估计未知的密度函数，属於非参数检验方法之一
+<script type="text/javascript"
+	src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 - 假设我们有n个数$$x_{1}-x_{i}$$，要计算某一个数x的概率密度，核密度估计的方法如下：
 
 <script type="text/javascript"
