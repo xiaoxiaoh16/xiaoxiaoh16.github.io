@@ -79,7 +79,13 @@ for(i in 1:length(sample)){
 			fontface = "bold", main.fontface="bold", sub.fontface="bold",
 			main.cex = 0.2,sub.cex = 0.2)
 }
-
+# large figure
+# venn.plot<-venn.diagram(list(gatk_sc=gatk_sc,sen_sc=sen_sc,sentieon=sentieon,gatk=gatk),
+#               col = "transparent", fill = c("red", "green", "yellow", "blue"),
+#               alpha =c(0.5,0.5,0.5,0.5), scaled = TRUE,ext.text = TRUE, ext.line.lwd = 2,
+#               ext.dist = -0.15,ext.length = 0.9, ext.pos = -4,inverted = TRUE,cex = 1.25,
+#               cat.cex = 1.25,filename = "C1513_4.venn.tiff",
+#               main = "C1513_4",sub = "gatk_sc-sentieon-gatk-sen_sc",main.cex = 2,sub.cex = 1)
 ``` 
 
 ![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/C1513_1.venn.tiff.png) 
