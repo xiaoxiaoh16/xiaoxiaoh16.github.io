@@ -16,17 +16,14 @@ description:
 # 1. 相关统计知识
 
 - 核密度估计（kernel density estimation）是在概率论中用来估计未知的密度函数，属於非参数检验方法之一
-<script type="text/javascript"
-	src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
 
-- 假设我们有n个数$$x_{1}-x_{i}$$，要计算某一个数x的概率密度，核密度估计的方法如下：
+![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/kernel_density_estimation_formular.png) 
 
 <script type="text/javascript"
 	src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
-> $$f(x) = \frac{1}{nh}\sum_{i=1}^nK(\frac{x-x_{i}}{h})$$
+$$f(x) = \frac{1}{nh}\sum_{i=1}^nK(\frac{x-x_{i}}{h})$$
 
 - 其中K为核密度函数
 - h为设定的窗口
@@ -105,6 +102,7 @@ density(x, bw = "nrd0", adjust = 1,
 ### 6.4.2 lines()
 - lines()
 - 用来做一般连线图，其输入是x,y的点向量
+
 ### 6.4.3 text()
 - text()
 - 用于向绘图区添加标注
