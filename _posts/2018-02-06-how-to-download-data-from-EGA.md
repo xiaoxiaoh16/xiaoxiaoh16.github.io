@@ -16,13 +16,13 @@ I am going to download the dataset EGAS00000000051 from paper "A small-cell lung
 It took me quit long to get the paper data
 
 
-# 1. The documents will need:
+## 1. The documents will need:
 
 - MTA (My college' agreement)
 - EGA Agreement
 - EGA Account
 
-# 2. Legacy datasets 
+## 2. Legacy datasets 
 
 - It cannot be downloaded through the client, and instead we should use either Aspera or FTP.
 
@@ -34,7 +34,7 @@ It took me quit long to get the paper data
 - user: xiaoxiao
 - password: hello
 
-# 3. How to use Aspera
+## 3. How to use Aspera
 
 - wget ftp://xiaoxiao:hello@xfer.crg.eu/download.sh
 
@@ -54,15 +54,15 @@ It took me quit long to get the paper data
 
 - run command: Java -jar decryptor-1.0.0.jar passed.txt NCI-H209_Normal-600-800-1_45.tar.cip
 
-# 5. Decryption key
+## 5. Decryption key
 
 - A one-time link where you will find your decryption key in  the alternative email you stated.
 
-# 6. Compare and Contrast
+## 6. Compare and Contrast
 
 - md5sum command
 
-# 7. Notes
+## 7. Notes
 
 ![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/download.sh.png) 
 

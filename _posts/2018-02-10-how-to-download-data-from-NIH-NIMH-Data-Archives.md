@@ -13,33 +13,33 @@ description:
 
 I am going to download  paper data, which is deposited to the NIH NIMH Data Archives (https://data-archive.nimh.nih.gov) under collection ID # 2330 and DOI:10.15154/1410419
 
-# 1. The documents will need:
+## 1. The documents will need:
 
 - MTA (My college' agreement)
 - NDA Agreement
 - NIMH account, complete a data access request
 
-# 2. Log up NIMH account
+## 2. Log up NIMH account
 
 - login NIMH account, finish  online Data Access Request for everyone in request form.
 - waiting for the approved email for access to NDA shared data in: RDoCdb from NDA Help Desk.
 
-# 3. how to download data
+## 3. how to download data
 
-## 3.1 creating a package
+3.1 creating a package
 - step1. loggin in to NDA.
 - step2: form "data from paper" find the paper.
 - step3. clink the download button on the left of the paper.
 - step4. get the filter data information
 - step5: create a package
 
-## 3.2  launch the download manager
+3.2  launch the download manager
 - step1: choose Launch Donwload Manager
 - step2: run command: 
 > java -jar downloadmanager.jar -u xiaoxiaoh 109224
 - The Download Manager will not allow downloads of packages larger than 5TB, we will get error information: unable to access data manager - https://ndar.nih.gov/DataManager/dataManager?wsdl
 
-## 3.3  launch the download manager or launch a miNDAR.
+3.3  launch the download manager or launch a miNDAR.
 - step1: choose Launch miNDAR 
 - step2: install Oracle SQL Developer (Linux)
 > unzip sqldeveloper-17.4.0.355.2349-no-jre.zip
@@ -49,12 +49,12 @@ I am going to download  paper data, which is deposited to the NIH NIMH Data Arch
 ![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/Oracle_SQL_Developer_conntection.png) 
 - step4: S3_LINKS -> Export -> get the export.sql file
 
-## 3.4 Generate AWS Credentials
+3.4 Generate AWS Credentials
 - step1: open NDAR Download Manager 5.1 
 - step2: click the button of "Tools" on the top
 - step3: Generate AWS Credentials(including Access Key, Secret Key, Session Token and Expiration Date)
 
-## 3.5 install AWS Command Line Interface
+3.5 install AWS Command Line Interface
 > - sudo  pip install awscli
 > - aws configure (input AWS Access Key ID, AWS Secret Access Key and Defualt region name: us-east-1 )
 > - add aws_session_token to the ~/.aws/credentials
@@ -68,7 +68,7 @@ I am going to download  paper data, which is deposited to the NIH NIMH Data Arch
 
 - so far, we can download data suceessfully.
 
-# 4. Large dataset
+## 4. Large dataset
 
 - I have a 14.3T dataset(195 files totally) to download, so I am going to use script to run it.
 > - [xhao@EG02 2018-clone-diff]$ head -n 6 sql.txt 
@@ -80,7 +80,7 @@ I am going to download  paper data, which is deposited to the NIH NIMH Data Arch
 > - s3://NDAR_Central_4/submission_13827/data/275-FR-clone11-hx.bam
 ![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/NDA_AWS_download.sh.png) 
 
-# 5. 文件校验
+## 5. 文件校验
 因为下载的文件很多，还在下载中，无外乎用md5等算法进行所谓的校验
 
-# 备注
+## 备注
