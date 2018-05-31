@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "[Python] 学习笔记"
+title: "[Python] 学习笔记-1"
 categories: 编程之魅
 tags:  Python 学习笔记 
 keywords: Python basic conception
 author: xiaoxiao
-description: Python 读书笔记
+description: Python 读书笔记-1
 ---
 
 * content
@@ -14,7 +14,7 @@ description: Python 读书笔记
 自从开始生物信息分析相关的工作，断断续续下了好几次决心要系统学习下Python。跌跌撞撞几次碰壁，感觉欠的东西始终是要还的。今天开始系统学习，以读书笔记为副产品，督促自己坚持下去！ 
 
 # 1. Python基础知识
-## 1.1. 单引号，双引号和三引号的异同？
+### 1.1. 单引号，双引号和三引号的异同？
 - 单引号, 里面的特殊字符如果是本身‘，需要用转移字符\'来代替，不然字符串的始末会混乱
 - 双引号，里面的单个特殊字符如果是本身“，需要用转移字符\“来替代，不然字符串的始末亦会混乱。
 - 三引号, 可以在里面直接方便地写既有单引号，又有双引号，甚至还有换行的句段了, 一般可表示大段的叙述性字符串。在使用时基本没有差别。
@@ -23,7 +23,7 @@ description: Python 读书笔记
 - 下面举个栗子：
 ![image](https://github.com/xiaoxiaoh16/xiaoxiaoh16.github.io/raw/master/_drafts/pic/diff-format-python.png)
 
-## 1.2. 字符串和编码
+### 1.2. 字符串和编码
 - //取模，地板除（廖雪峰书中）
 - 用全部大写的变量名表示常量只是一个习惯上的用法
 - Python的整数没有大小限制, 浮点数也没有大小限制，但是超出一定范围就直接表示为inf（无限大）
@@ -38,7 +38,7 @@ description: Python 读书笔记
 - 在操作字符串时，我们经常遇到str和bytes的互相转换。为了避免乱码问题，应当始终坚持使用UTF-8编码对str和bytes进行转换
 - list和tuple是Python内置的有序集合，一个可变，一个不可变。根据需要来选择使用它们 
 
-# 1.3. str, list, set, dict的异同
+### 1.3. str, list, set, dict的异同
 - input()返回的数据类型是str，str不能直接和整数比较，必须先把str转换成整数。Python提供了int()函数来完成这件事情
 - Python内置了字典：dict的支持，dict全称dictionary，在其他语言中也称为map，使用键-值（key-value）存储，具有极快的查找速度。要避免key不存在的错误，有两种办法，一是通过in判断key是否存在.二是通过dict提供的get()方法，如果key不存在，可以返回None，或者自己指定的value：要删除一个key，用pop(key)方法，对应的value也会从dict中删除.dict内部存放的顺序和key放入的顺序是没有关系的.
 - list 与dict 的异同
@@ -52,6 +52,4 @@ description: Python 读书笔记
  set和dict的唯一区别仅在于没有存储对应的value，但是，set的原理和dict一样，所以，同样不可以放入可变对象，因为无法判断两个可变对象是否相等，也就无法保证set内部“不会有重复元素”。试试把list放入set，看看是否会报错
 － str 和list的异同
  str是不变对象，而list是可变对象。对于可变对象，比如list，对list进行操作，list内部的内容是会变化的。
-
-
 
