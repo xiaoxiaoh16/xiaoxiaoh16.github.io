@@ -2,8 +2,8 @@
 layout: post
 title: "how to get lorenz curze"
 categories: 编程之魅
-tags:  R 笔记
-keywords: R lorenz curze
+tags:  Python
+keywords: merge files
 author: xiaoxiao
 description: 
 ---
@@ -11,20 +11,14 @@ description:
 * content
 {:toc}
 
-
-## 1. what is lorenz curze
-
+## 1. 
 
 
-## 2. how to get it
-
-
-
-## 3. draw lorenz curze
-
+## 2. 
 
 ```
- R scirpt
+
+
 ```
 
 ## 备注
